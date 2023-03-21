@@ -52,7 +52,7 @@ Após descompactado ficará desta forma:
 
 3 - Execute o programa adapterFilesMS.py
 
-    $ python adapterFilesMS.py
+    $ python %PATH/adapterFilesMS.py
     
 4 - Selecione uma das opções para ajustar o problema ( 1 , 2 ou 3)
 
