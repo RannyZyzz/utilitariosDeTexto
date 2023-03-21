@@ -27,7 +27,8 @@ files=["GM_MS_ESPEC.CSV","GM_MS_PLANOS.CSV","GM_MS_CORPOCLI.CSV","GM_MS_HORARIOS
 for file in files:
 
     # relative or absolute file path, e.g.:
-    file_path = r'{0}/{1}'.format(dir_path,file)
+    upperCaseFile = file.upper()
+    file_path = r'{0}/{1}'.format(dir_path,upperCaseFile)
 
     # verify if file exists
     path = Path(file_path)
@@ -63,6 +64,3 @@ for file in files:
         
         #remove old files
         os.remove('UTF8_'+file)
-
-
-print(isinstance('GM_MS_ESPEC.CSV', str))
