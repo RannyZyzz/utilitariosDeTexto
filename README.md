@@ -15,7 +15,7 @@ Utilitário para ajustes em arquivos CSV, feito para ser utilizado nas situaçõ
 
 Após descompactado ficará desta forma:
 
-## Estrutura de arquivos descompactado
+## Estrutura de arquivos
     utilitariosDeTexto
     ├── adapterFilesMS.py
     ├── LICENCE
