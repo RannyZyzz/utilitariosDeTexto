@@ -27,6 +27,8 @@ Após descompactado ficará desta forma:
 
 | ARQUIVOS       |FORMATO                        |
 |----------------|-------------------------------|
+|Arquivo de beneficiarios|BENEFICIARIOS.CSV|
+|Arquivo de carências|CARENCIAS.CSV|
 |Arquivo de especialidades|GM_MS_ESPEC.CSV|
 |Arquivo de planos|GM_MS_PLANOS.CSV|
 |Arquivo de corpo clínico|GM_MS_CORPOCLI.CSV|
@@ -39,6 +41,8 @@ Após descompactado ficará desta forma:
 ## Estrutura de arquivos a serem ajustados
     utilitariosDeTexto
     ├── adapterFilesMS.py
+    ├── BENEFICIARIOS.CSV
+    ├── CARENCIAS.CSV
     ├── GM_MS_ESPEC.CSV
     │── GM_MS_PLANOS.CSV
     │── GM_MS_CORPOCLI.CSV
