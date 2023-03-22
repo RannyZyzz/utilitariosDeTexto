@@ -16,7 +16,7 @@ createFolder = r'{0}/msConvert'.format(dir_path)
 if not os.path.exists(createFolder):
     os.makedirs(createFolder)
 
-print('\nATENÇÃO: TODOS os arquivos devem estar nomeados em caixa alta - inclusive a extenção - ex: GM_MS_ESPEC.CSV\n')
+print('\nATENÇÃO: TODOS os arquivos devem estar nomeados em caixa alta - inclusive a extenção - ex: GM_MS_ESPEC.CSV ou BENEFICIARIOS.CSV\n')
 while(True):
     choise=input("Selecione:\n1 - Ajustar quebra de linha de Windows para Unix\n2 - Ajustar encoding de ISO-8859 para UTF-8\n3 - Ambos\n")
     if(choise == "1" or choise == "2" or choise == "3"):
@@ -27,7 +27,7 @@ while(True):
 WINDOWS_LINE_ENDING = b'\r\n'
 UNIX_LINE_ENDING = b'\n'
 
-files=["GM_MS_ESPEC.CSV","GM_MS_PLANOS.CSV","GM_MS_CORPOCLI.CSV","GM_MS_HORARIOS.CSV","GM_MS_QUALIFICACAO.CSV","GM_MS_MEDICAMENTO.CSV","GM_MS_TPREDE.CSV","GM_MS_REDECRED.CSV"]
+files=["GM_MS_ESPEC.CSV","GM_MS_PLANOS.CSV","GM_MS_CORPOCLI.CSV","GM_MS_HORARIOS.CSV","GM_MS_QUALIFICACAO.CSV","GM_MS_MEDICAMENTO.CSV","GM_MS_TPREDE.CSV","GM_MS_REDECRED.CSV","BENEFICIARIOS.CSV","CARENCIAS.CSV"]
 
 
 if(choise == "1"):
